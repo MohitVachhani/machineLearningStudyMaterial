@@ -1,0 +1,66 @@
+Disclaimer: No Deep Learning/ Reinforcement Learning approaches are mentioned in the process. Only different machine learning approaches are mentioned.
+
+Best reference to below given topics can be found on medium, analytics vidhya, quora, stanford CS231n, Cornell, MITOpenCourseware, machine learning mastery, etc.
+
+Online(on Youtube(Channels)): Siraj Raval, The Codingtrain, Sentdex, Stanford CS231n, Computerphile, Geoffrey Hinton explanatory videos(only for ANN backpropogation and forwardpropogation.), Augmented Startups, etc.
+
+
+Steps to follow for any kind of Data Science/ ML related problem:
+
+1. 	Data Harvesting/ Data Warehousing
+	Collect the data related to the specific type of problem. For example: For digit recognition, collect MNIST dataset which can be found on kaggle and also in certain libraries such as sklearn.datasets, etc.
+	
+	Libraries involved: Sklearn, etc.
+
+2. 	Data Cleaning:
+	Clean the data according to the need. Remove unwanted features and merge different features which can be used for the improvisation of training the model and increasing the accuracy of the same.
+
+	Libraries involved: Matplotlib, seaborn, sklearn, pandas, numpy, PIL, etc.
+
+3. 	Model Selection:
+	There are different types of models which can be used to tackle the problem. Orderwise models to follow are:-
+	Regression(Supervised):
+	1. Linear/ Multiple Linear regression(Gradient Descent and Normal Equation)
+	2. Polynomial regression
+	3. Support Vector regression
+	4. Decision tree regression
+	5. Random forest regression
+
+	Classification(Supervised):
+	1. Logistic regression
+	2. K-Nearest Neighbours
+	3. Support Vector Machine(Also different type of Kernel SVM)
+	4. Decision tree classification
+	5. Random forest classification
+	6. Bayesian Learning(Naive Bayes)
+	7. MLE(Maximum likelihood estimation)
+
+	Clustering(Unsupervised):
+
+	1. K-Means Clustering
+	2. Hierarchical Clustering
+
+
+	Libraries Involved(For every topic listed above): sklearn, Tensorflow, Caffe, Pytorch, Keras 
+
+4. 	Model Selection and different merits to analyse and test the model:
+	1. Accuracy score
+	2. Precision/Recall 
+	3. F-score
+	4. Confusion Matrix
+	5. LSE(Least Square Error)
+	6. R squared Value.
+	
+	Libraries involved: Matplotlib, seaborn, sklearn
+
+5. 	Boosting of the model:
+	1. XGBoost
+	2. k-Fold cross validation
+	3. Grid Search
+
+6. 	Prediction:
+	Properly following above five steps will help us in predicting the good results. Give input and output the best result. Model as a black box.
+
+
+
+
